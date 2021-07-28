@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+
+.npm {
+  margin-top: 10px;
+  padding: 5px;
+  
+}
+
+  .logo {
+    width: 80px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+.hexagon {
+  width: 100px;
+  align-items: center;
+}
+
+
+form {
+  align-items: center;
+  width: 400px;
+  margin: auto;
+}
+
+input {
+  padding: 4px 10px;
+  border: 2px;
+  font-size: 16px;
+}
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: #FB3B49;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  
+}
+
+
+
+ .log-in {
+  color: grey;
+  text-decoration: none;
+  padding: 10px 28px;
+  
+}
+
+.join-log{
+  color: grey;
+  text-decoration: none;
+  border-right: 10px;
+  border-right-color: lightgray;
+  padding: 10px 28px;
+}
+
+
+ /*  First  */
+
+ #main {
+  background-color: rgba(232,217,217,.3);
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+ }
+
+ 
+ .title { 
+   font-size: 70px;
+   font-weight: 700;
+   
+   margin: 0px;
+ }
+
+ .text {
+  font-size: 15px;
+  margin: 0px;
+  width: 700px;
+  padding: 50px;
+ 
+}
+
+
+ .pians {
+  background-color: #FB3B49;
+  width: 150px;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+ }
+
+ .join-free {
+  color: red;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+ }
+
+
+
+  /*  Second  */
+
+#second {
+  align-items: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ .hexagon{
+   display: grid;
+   width: 200;
+   height: 130;
+   
+ }
+
+  .title-section2 {
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: rgba(255,204,53,.4)
+    
+  }
+
+  .text-section2 {
+  
+  margin: 0px 10px 10px;
+  width: 700px;
+  padding: 20px;
+  font-size: 1em;
+    
+  }
+
+    /*  Third  */
+
+    #third {
+  
+        align-items: center;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    
+      .boxes {
+        
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          align-items: baseline;
+          align-content: stretch;
+          
+
+        
+      }
+
+      .boxes h3 {
+        color: #ED1C24;
+      }
+
+
+      .box {
+        box-sizing: border-box;
+        height: auto;
+        padding: 2em;
+      }
+
+      .box-text {
+     
+        padding: .3em;
+        font-size: 1em;
+    
+      }
+
+    .org{
+      background-color: black;
+      box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+      color: white;
+      padding: 20px 120px 20px 120px;
+      font-size: 15px;
+      margin-top: 20px;
+    }
+
+   .img {
+    width: 10%;
+   }
